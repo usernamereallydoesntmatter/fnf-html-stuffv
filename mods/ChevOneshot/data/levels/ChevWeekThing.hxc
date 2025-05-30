@@ -1,0 +1,18 @@
+import funkin.ui.story.Level;
+import funkin.save.Save;
+
+class ChevWeekThing extends Level
+{
+	function new()
+	{
+		super('ChevWeek');
+	}
+
+  override function isUnlocked():Bool {
+    return true;
+  }
+
+  override function getSongDisplayNames(difficultyId:String):Array<String> {
+      return ["chev"];  
+  }
+}

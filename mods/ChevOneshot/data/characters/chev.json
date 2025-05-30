@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "Chev",
+  "renderType": "sparrow",
+  "assetPath": "characters/chev",
+  "startingAnimation": "idle",
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "i",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "l",
+      "offsets": [287, -126]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "d",
+      "offsets": [5, -160]
+    },
+    {
+      "name": "singUP",
+      "prefix": "u",
+      "offsets": [-28, 111]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "r",
+      "offsets": [-9, -52]
+    }
+  ]
+}

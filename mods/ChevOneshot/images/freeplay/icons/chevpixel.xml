@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="chev.png">
+<SubTexture name="idle0001" x="26" y="0" width="29" height="28" frameX="-10" frameY="-11" frameWidth="50" frameHeight="50" />
+<SubTexture name="confirm0001" x="26" y="0" width="29" height="28" frameX="-10" frameY="-11" frameWidth="50" frameHeight="50" />
+<SubTexture name="confirm0002" x="0" y="31" width="33" height="25" frameX="-7" frameY="-14" frameWidth="50" frameHeight="50" />
+<SubTexture name="confirm0003" x="0" y="0" width="26" height="31" frameX="-13" frameY="-8" frameWidth="50" frameHeight="50" />
+<SubTexture name="confirm0004" x="55" y="0" width="28" height="28" frameX="-12" frameY="-11" frameWidth="50" frameHeight="50" />
+<SubTexture name="confirm-hold0001" x="55" y="0" width="28" height="28" frameX="-12" frameY="-11" frameWidth="50" frameHeight="50" />
+</TextureAtlas>
