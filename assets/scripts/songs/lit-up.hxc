@@ -11,20 +11,15 @@ class LitUpSong extends Song {
 	}
 
 	public override function isSongNew(currentDifficulty:String, currentVariation:String):Bool
-  {
-    if (currentVariation == 'bf')
-      return !Save.instance.hasBeatenSong(this.id, null, 'bf');
+  	{
+		if (currentVariation == 'bf')
+		return !Save.instance.hasBeatenSong(this.id, null, 'bf');
 
-    return false;
+		return false;
 	}
 
 	public function listDifficulties(variationId:String, variationIds:Array<String>, showLocked:Bool):Array<String> {
-		if (showLocked) {
-			return super.listDifficulties(variationId, variationIds);
-		}
-
-		// Hide all difficulties if the player has not beaten the week.
-		return [];
+		return super.listDifficulties(variationId, variationIds);
 	}
 
 	public override function listAltInstrumentalIds(difficultyId:String, variationId:String):Array<String> {

@@ -39,12 +39,7 @@ class TwoHOTSong extends Song
 	var HEALTH_LOSS = 0.25 * 2;
 
 	public function listDifficulties(variationId:String, variationIds:Array<String>, showLocked:Bool):Array<String> {
-		if (showLocked) {
-			return super.listDifficulties(variationId, variationIds);
-		}
-
-		// Hide all difficulties if the player has not beaten the week.
-		return [];
+		return super.listDifficulties(variationId, variationIds);
 	}
 
 	public override function onCountdownStart(event:CountdownScriptEvent):Void {
