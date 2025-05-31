@@ -10,7 +10,7 @@
     "pico-dark",
     "pico-holding-nene"
   ],
-  "showUnownedChars": true,
+  "showUnownedChars": false,
   "unlocked": true,
   "freeplayStyle": "pico",
   "stickerPack": "standard-pico",
