@@ -36,7 +36,7 @@ class BlazinSong extends Song {
 	}
 
 	public function listDifficulties(variationId:String, variationIds:Array<String>, showLocked:Bool):Array<String> {
-		if (showLocked || Save.instance.hasBeatenLevel('weekend1')) {
+		if (showLocked) {
 			return super.listDifficulties(variationId, variationIds);
 		}
 

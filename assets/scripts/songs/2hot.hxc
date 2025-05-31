@@ -39,7 +39,7 @@ class TwoHOTSong extends Song
 	var HEALTH_LOSS = 0.25 * 2;
 
 	public function listDifficulties(variationId:String, variationIds:Array<String>, showLocked:Bool):Array<String> {
-		if (showLocked || Save.instance.hasBeatenLevel('weekend1')) {
+		if (showLocked) {
 			return super.listDifficulties(variationId, variationIds);
 		}
 
